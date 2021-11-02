@@ -269,9 +269,9 @@ def anime(speed_point, choice, num_point):
 
     #num_point = num_point
     if (choice == 1):
-        animate_ellipse(10)
+        animate_ellipse(Npoints, speed, FPS)
     else:
-        animate_bezier(Npoints, FPS)
+        animate_bezier(Npoints, speed, FPS)
     buffer=BytesIO()
     plt.savefig(buffer, format='png')
     buffer.seek(0)
