@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+
+    background: #22161C;
+  }
+ .navbar{ 
+    background: #4C394F; 
+    position: absolute;
+width: 1440px;
+height: 101px;
+left: 0px;
+top: 0px;
+    
+    flex-direction: row ;
+    color: #D5DDEF; 
+  } 
+.navbar-brand{
+    color: #D5DDEF; 
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 100;
+ top: 100;
+ background: rgba(244, 244, 244, 0.79);
+}
